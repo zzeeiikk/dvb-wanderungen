@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "name": "Auf den Spuren der Bienerts in Dresden-Plauen",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/durch-dresden-plauen",
+    "gpx": "tracks/01.gpx",
+    "start": "Haltestelle Plauen, Rathaus (Buslinien 62, 63, 85)",
+    "return": "Haltestelle Plauen, Rathaus (Buslinien 62, 63, 85) Haltestelle Plauen, Nöthnitzer Straße (Straßenbahnlinie 3, Buslinie 85) Haltestelle Münchner Platz (Straßenbahnlinie 3)"
+  },
+  {
+    "id": 2,
+    "name": "Tradition und Villen am Elbhang in Loschwitz",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/am-loschwitzer-elbhang",
+    "gpx": "tracks/02.gpx",
+    "start": "Nicht angegeben",
+    "return": "Nicht angegeben"
+  },
+  {
+    "id": 3,
+    "name": "Hellerau – Erste deutsche Gartenstadt",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/gartenstadt-hellerau",
+    "gpx": "tracks/03.gpx",
+    "start": "Haltestelle Am Hellerrand (Straßenbahnlinie 8)",
+    "return": "Haltestelle Festspielhaus Hellerau (Straßenbahnlinie 8) Haltestelle Brunnenweg (Straßenbahnlinie 8, Buslinien 70 und 72)"
+  },
+  {
+    "id": 4,
+    "name": "Aus der Friedrichstadt ins Ostragehege",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/aus-der-friedrichstadt-ins-ostragehege",
+    "gpx": "tracks/04.gpx",
+    "start": "Haltestelle Weißeritzstraße (Straßenbahnlinie 10 und Buslinie 68 (ehemals 75))",
+    "return": "Haltestelle MESSE DRESDEN (Straßenbahnlinie 10)"
+  },
+  {
+    "id": 5,
+    "name": "Von Pennrich nach Briesnitz – durch den Zschonergrund",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/durch-den-zschonergrund",
+    "gpx": "tracks/05.gpx",
+    "start": "Haltestelle Pennrich, Gleisschleife (Straßenbahnlinie 7)",
+    "return": "Haltestelle Cotta, Gottfried-Keller-Straße (Straßenbahnlinien 1 und 12, Buslinie 68)"
+  },
+  {
+    "id": 6,
+    "name": "Unterwegs auf dem Dichter-Musiker-Maler-Weg",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/dichter-musiker-maler-weg",
+    "gpx": "tracks/06.gpx",
+    "start": "Haltestelle Körnerplatz (Buslinien 61, 63, 84 bzw. 521 (ehemals 309)) Haltestelle Schillerplatz (Straßenbahnlinien 6 und 12; Buslinie 65), weiter zu Fuß über das Blaue Wunder",
+    "return": "Haltestelle Altwachwitz (Buslinie 63) Haltestelle Leonardo-da-Vinci-Straße (Buslinie 63) oder Fährstelle Pillnitz (Fährlinie 14) Haltestelle Tschaikowskiplatz (Buslinie 63)"
+  },
+  {
+    "id": 7,
+    "name": "Ausblicke und versteckte Schätze im Dresdner Süden",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/durch-dresdens-sueden",
+    "gpx": "tracks/07.gpx",
+    "start": "Haltestelle Räcknitzhöhe (Straßenbahnlinie 11, Buslinie 85)",
+    "return": "Haltestelle Altleubnitz (Buslinien 68 und 87) Haltestelle Hugo-Bürkner-Straße (Straßenbahnlinien 9 und 13, Buslinie 68)"
+  },
+  {
+    "id": 8,
+    "name": "Vor Dresdens Toren Legenden und Sagen auf der Spur - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/vor-den-toren-dresdens",
+    "gpx": "tracks/08.gpx",
+    "start": "Haltestelle Altnossener Straße (Straßenbahnlinie 7, Buslinie 70)",
+    "return": "Haltestelle Dölzschen (Buslinie 62)"
+  },
+  {
+    "id": 9,
+    "name": "Durch das Reich der Blütenkönigin von Borthen",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/durch-das-reich-der-bluetenkoenigin",
+    "gpx": "tracks/09.gpx",
+    "start": "Haltestelle Luga (Buslinie 65)",
+    "return": "Haltestelle Lockwitz (Buslinien 66, 86, 89)"
+  },
+  {
+    "id": 10,
+    "name": "Von Mockritz nach Prohlis – durch den Gebergrund",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/mockritz_prohlis",
+    "gpx": "tracks/10.gpx",
+    "start": "Haltestelle Campingplatz Mockritz (Buslinien 63 und 66)",
+    "return": "Haltestelle Prohlis, Gleisschleife (Straßenbahnlinien 1, 9 und 13) Haltestelle Prohlis, Kaufpark Nickern (Buslinien 66, 86 und 88)"
+  },
+  {
+    "id": 11,
+    "name": "Auf geheimen Wegen zum Schloss Wackerbarth",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/auf-geheimen-wegen",
+    "gpx": "tracks/11.gpx",
+    "start": "Haltestelle Landesbühnen Sachsen (Straßenbahnlinie 4, Buslinie 72)",
+    "return": "Haltestelle Schloss Wackerbarth (Straßenbahnlinie 4) Haltestelle Moritzburger Straße (Straßenbahnlinie 4)"
+  },
+  {
+    "id": 12,
+    "name": "Durch den Prießnitzgrund zum Dresdner Heller - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/dresdner-heller",
+    "gpx": "tracks/12.gpx",
+    "start": "Haltestelle Alaunplatz (Straßenbahnlinie 13)",
+    "return": "Haltestelle Heeresbäckerei (Straßenbahnlinien 7 und 8) Haltestelle Stauffenbergallee (Straßenbahnlinien 7 und 8, Buslinie 64)"
+  },
+  {
+    "id": 13,
+    "name": "Dresdens Berge – Wandern durch das Schönfelder Hochland - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/dresdens-berge",
+    "gpx": "tracks/13.gpx",
+    "start": "Haltestelle Gasthof Weißig (Buslinie 61)",
+    "return": "Haltestelle Rathaus Pillnitz (Buslinie 63) Haltestelle Pillnitz, Leonardo-da-Vinci-Straße (Buslinie 63)"
+  },
+  {
+    "id": 14,
+    "name": "Vom Loschwitzer Dorfplatz zu den Elbschlössern",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/loschwitz-heide-schloesser",
+    "gpx": "tracks/14.gpx",
+    "start": "Haltestelle Körnerplatz (Buslinien 61, 63 und 84 bzw. 521) Haltestelle Schillerplatz (Straßenbahnlinien 6 und 12, Buslinie 65) – ca. 15 Minuten Fußweg über das Blaue Wunder",
+    "return": "Haltestelle Elbschlösser (Straßenbahnlinie 11)"
+  },
+  {
+    "id": 15,
+    "name": "An der Elbe entlang – Vom Wasserwerk bis zum Putjatinhaus",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/an-der-elbe-entlang",
+    "gpx": "tracks/15.gpx",
+    "start": "Haltestelle Wasserwerk Tolkewitz (Straßenbahnlinien 4 und 6)",
+    "return": "Haltestelle Kleinzschachwitz, Freystraße (Straßenbahnlinie 2) Haltestelle Kleinzschachwitz, Fähre (Buslinie 88)"
+  },
+  {
+    "id": 16,
+    "name": "Barocke und moderne Wasserspiele in der Dresdner Innenstadt",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/barocke-und-moderne-wasserspiele",
+    "gpx": "tracks/16.gpx",
+    "start": "Haltestelle Manitiusstraße (Straßenbahnlinie 1)",
+    "return": "Haltestelle Georg-Arnhold-Bad (Straßenbahnlinien 10 und 13)"
+  },
+  {
+    "id": 17,
+    "name": "Im Dresdner Westen durch den Tännichtgrund zum Steinhübel",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/im-dresdner-westen",
+    "gpx": "tracks/17.gpx",
+    "start": "Haltestelle Haltepunkt Niederwartha (Buslinie 68)",
+    "return": "Haltestelle Pennrich, Gleisschleife (Straßenbahnlinie 7)"
+  },
+  {
+    "id": 18,
+    "name": "Der Reblaus auf der Spur: Von Wilder Mann nach Oberlößnitz",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/von-wilder-mann-nach-oberloessnitz",
+    "gpx": "tracks/18.gpx",
+    "start": "Haltestelle Wilder Mann (Straßenbahnlinie 3, Buslinien 73, 80)",
+    "return": "Haltestelle Hauptstraße (Straßenbahnlinie 4)"
+  },
+  {
+    "id": 19,
+    "name": "Teiche, Wälder und höfische Jagdgebiete im Dresdner Norden",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/im-dresdner-norden",
+    "gpx": "tracks/19.gpx",
+    "start": "Haltestelle Weixdorf (Straßenbahnlinie 7)",
+    "return": "Haltestelle Zur Neuen Brücke (Straßenbahnlinie 7 und Buslinien 70, 78, 80)"
+  },
+  {
+    "id": 20,
+    "name": "Glückauf im Süden zwischen Bergbau und Panoramen",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/zwischen-bergbau-und-panoramen",
+    "gpx": "tracks/20.gpx",
+    "start": "Haltestelle Coschütz (Straßenbahnlinie 3 und Buslinie 66)",
+    "return": "Haltestelle Altkaitz (Buslinie 66)"
+  },
+  {
+    "id": 21,
+    "name": "Auf Treidelwegen von Pieschen nach Kötzschenbroda",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/treidelwege",
+    "gpx": "tracks/21.gpx",
+    "start": "Haltestelle Rathaus Pieschen (Straßenbahnlinie 13)",
+    "return": "Haltestelle Moritzburger Straße (Straßenbahnlinie 4)"
+  },
+  {
+    "id": 22,
+    "name": "Über den Dächern Dresdens: Vom Hochland zur Elbe - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/streifzug-22",
+    "gpx": "tracks/22.gpx",
+    "start": "Haltestelle Südstraße, Buslinie 61",
+    "return": "Haltestelle Alttolkewitz, Straßenbahnlinien 4 und 6"
+  },
+  {
+    "id": 23,
+    "name": "Vom Seifersdorfer Tal zum Schloss und Park Hermsdorf - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/seifersdorfer-tal",
+    "gpx": "tracks/23.gpx",
+    "start": "Haltestelle Silberdiele in Liegau-Augustusbad, Buslinie 78 Richtung Radeberg (fährt alle 60 Minuten, z. B. ab den Haltestellen Zur Neuen Brücke oder Käthe-Kollwitz-Platz, die Sie mit der Straßenbahnlinie 7 erreichen)",
+    "return": "Haltestelle Weixdorf, Straßenbahnlinie 7"
+  },
+  {
+    "id": 24,
+    "name": "Winzerträume: von Weinböhla nach Zitzschewig - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/streifzug24-winzertraueme",
+    "gpx": "tracks/24.gpx",
+    "start": "Endhaltestelle Weinböhla, Buslinie EV 4 (ab vsl. November 2024 wieder Straßenbahnlinie 4)",
+    "return": "Haltestelle Gerhart-Hauptmann-Straße, Buslinie EV 4 (ab vsl. November 2024 wieder Straßenbahnlinie 4)"
+  },
+  {
+    "id": 25,
+    "name": "Herrliche Ausblicke und alte Dorfkerne im Dresdner Westen - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/streifzug25",
+    "gpx": "tracks/25.gpx",
+    "start": "Haltestelle Schulstraße (Buslinien 68 und 93)",
+    "return": "Endhaltestelle Leutewitz (Straßenbahnlinien 1 und 12)"
+  },
+  {
+    "id": 26,
+    "name": "Dresden Nordwest: Von Wilschdorf nach Alttrachau - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/nordwest-wilschdorf-alttrachau",
+    "gpx": "tracks/26.gpx",
+    "start": "Haltestelle Wilschdorf, Industriegebiet (Buslinien 78, 80 und 81)",
+    "return": "Haltestelle Alttrachau (Straßenbahnlinie 4)"
+  },
+  {
+    "id": 27,
+    "name": "Panoramablicke zwischen Kreischa und Dresden-Nickern - DVB",
+    "page": "https://www.dvb.de/de-de/entdecken/wandertipps/27-kreischa-nickern",
+    "gpx": "tracks/27.gpx",
+    "start": "Haltestelle Am Mühlgraben, Kreischa (Buslinie 86)",
+    "return": "Haltestelle Prohlis, Gleisschleife (Straßenbahnlinien 1, 4 und 13; Buslinien 66 und 88) Haltestelle Prohlis, Kaufpark Nickern (Buslinien 66, 86 und 88)"
+  }
+]

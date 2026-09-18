@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns:tp1="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="QMapShack 1.10.0 http://www.qlandkarte.org/" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:rmc="urn:net:trekbuddy:1.0:nmea:rmc" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.qlandkarte.org/xmlschemas/v1.1 http://www.qlandkarte.org/xmlschemas/v1.1/ql-extensions.xsd http://www.cluetrust.com/XML/GPXDATA/1/0 http://www.cluetrust.com/Schemas/gpxdata10.xsd" version="1.1" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:ql="http://www.qlandkarte.org/xmlschemas/v1.1" xmlns:gpxdata="http://www.cluetrust.com/XML/GPXDATA/1/0">
+ <metadata>
+  <name>Streifzug 03: Hellerau - Erste deutsche Gartenstadt</name>
+  <link href="https://www.dvb.de/de-de/entdecken/wandertipps/gartenstadt-hellerau/">
+   <text>Webseite</text>
+   <type>Link</type>
+  </link>
+  <time>2020-06-08T05:09:22.000Z</time>
+ </metadata>
+ <wpt lon="13.76385000" lat="51.11015000">
+  <ele>204</ele>
+  <time>2020-07-15T15:27:31.847Z</time>
+  <name>Wegpunkt 1 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>c3cdba616dd36fa88def87806fc04a81</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:27:31.848Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:27:34.451Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76108333" lat="51.10930000">
+  <ele>187</ele>
+  <time>2020-07-15T15:28:32.027Z</time>
+  <name>Wegpunkt 2 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>46a456773f0b0e0cf6592e9da3a744d7</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:28:32.028Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:28:35.835Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76171667" lat="51.10708333">
+  <ele>180</ele>
+  <time>2020-07-15T15:29:37.010Z</time>
+  <name>Wegpunkt 3 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>71d47bc8591d4ee9c7cea8e2b26fe131</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:29:37.011Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:29:40.778Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76181667" lat="51.10615000">
+  <ele>181</ele>
+  <time>2020-07-15T15:30:30.778Z</time>
+  <name>Wegpunkt 4 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>c9deb033d08e51734e1ae87811ee0300</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:30:30.778Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:30:33.759Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75860000" lat="51.10773333">
+  <ele>181</ele>
+  <time>2020-07-15T15:32:18.242Z</time>
+  <name>Wegpunkt 5 Hier</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>32589c5ffd53026ea28be163bcecd473</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:32:18.243Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:32:21.157Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75571667" lat="51.10865000">
+  <ele>191</ele>
+  <time>2020-07-15T15:34:51.673Z</time>
+  <name>Wegpunkt 6 Links</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>5835f4dc56ed90f81d116374ec526e4e</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:34:51.673Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:34:54.925Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75383333" lat="51.10960000">
+  <ele>203</ele>
+  <time>2020-07-15T15:35:49.546Z</time>
+  <name>Wegpunkt 7 Hier</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>0c070be28dcd3c3f46b5c2882d6739d8</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:35:49.547Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:35:52.289Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75903333" lat="51.10936667">
+  <ele>191</ele>
+  <time>2020-07-15T15:36:36.594Z</time>
+  <name>Wegpunkt 8 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>8c9499d07e30846f34e91211ff54a6ba</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:36:36.595Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:36:39.504Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76018333" lat="51.11085000">
+  <ele>196</ele>
+  <time>2020-07-15T15:38:37.083Z</time>
+  <name>Wegpunkt 9 Links</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>88a2c3fe50680fc10586b3b7a4d2ea90</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:38:37.084Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:38:39.861Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76093333" lat="51.11153333">
+  <ele>199</ele>
+  <time>2020-07-15T15:40:22.393Z</time>
+  <name>Wegpunkt 10 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>75c102c45ea3f23da8f62cc58260df31</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:40:22.393Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:40:24.904Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76290780" lat="51.11269385">
+  <ele>198</ele>
+  <time>2020-07-15T15:42:39.718Z</time>
+  <name>Wegpunkt 11 Links</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>f5c1e297661d0efd18e15a8ff92c4273</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:42:39.719Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:42:44.484Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptMove.png</ql:icon>
+     <ql:time>2020-07-15T15:42:54.382Z</ql:time>
+     <ql:comment>Position geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.76120000" lat="51.11366667">
+  <ele>205</ele>
+  <time>2020-07-15T15:44:19.287Z</time>
+  <name>Wegpunkt 12 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>567d6100cb0b9ffd24f203fb55104b80</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:44:19.288Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:44:22.496Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75583333" lat="51.11318333">
+  <ele>213</ele>
+  <time>2020-07-15T15:45:30.535Z</time>
+  <name>Wegpunkt 13 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>832b17b9ff12eeb25659b5d85e65a619</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:45:30.535Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:45:34.497Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75293132" lat="51.11288378">
+  <ele>212</ele>
+  <time>2020-07-15T15:46:39.594Z</time>
+  <name>Wegpunkt 14 Voraus</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>3833f59fdc6e72d4900c696b97a5b8ec</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:46:39.595Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:46:42.341Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptMove.png</ql:icon>
+     <ql:time>2020-07-15T15:46:48.666Z</ql:time>
+     <ql:comment>Position geändert</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/EditText.png</ql:icon>
+     <ql:time>2020-07-15T15:48:36.401Z</ql:time>
+     <ql:comment>Name geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75288333" lat="51.11156667">
+  <ele>210</ele>
+  <time>2020-07-15T15:48:15.793Z</time>
+  <name>Wegpunkt 15 Links, Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>493edf3a8279db37195555947dbd0aa6</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:48:15.794Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:48:19.803Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.74845000" lat="51.10895000">
+  <ele>206</ele>
+  <time>2020-07-15T15:50:16.305Z</time>
+  <name>Wegpunkt 17 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>b0e58ade3ac9bca6ac2c9f87db9a0b69</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:50:16.306Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:50:20.035Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/EditText.png</ql:icon>
+     <ql:time>2020-07-15T15:51:06.149Z</ql:time>
+     <ql:comment>Name geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.75175000" lat="51.10978333">
+  <ele>214</ele>
+  <time>2020-07-15T15:52:16.794Z</time>
+  <name>Wegpunkt 16 Rechts</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>e82c5f673ebef453d05c839fbb4ebf8d</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:52:16.795Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:52:20.618Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.74663752" lat="51.11190791">
+  <ele>210</ele>
+  <time>2020-07-15T15:53:26.354Z</time>
+  <name>Wegpunkt 18 Links</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>d6222c0827b0396a1102c0cd6ad4774e</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:53:26.354Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:53:30.262Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptMove.png</ql:icon>
+     <ql:time>2020-07-15T15:53:39.192Z</ql:time>
+     <ql:comment>Position geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <wpt lon="13.74733333" lat="51.11481667">
+  <ele>214</ele>
+  <time>2020-07-15T15:54:30.146Z</time>
+  <name>Wegpunkt 19 Voraus</name>
+  <sym>Flag, Blue</sym>
+  <extensions>
+   <ql:key>b8728748f7b913995f309c9d76b88abb</ql:key>
+   <ql:flags>3</ql:flags>
+   <ql:bubble yoff="-150" xoff="-320" width="300"/>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-07-15T15:54:30.147Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/WptEditProx.png</ql:icon>
+     <ql:time>2020-07-15T15:54:32.815Z</ql:time>
+     <ql:comment>Abstandsalarm geändert</ql:comment>
+    </ql:event>
+   </ql:history>
+   <wptx1:WaypointExtension>
+    <wptx1:Proximity>10.00000000</wptx1:Proximity>
+   </wptx1:WaypointExtension>
+  </extensions>
+ </wpt>
+ <trk>
+  <name>Route (Anschlussroute)</name>
+  <extensions>
+   <ql:key>9f86ce9f27baf0e767d353a844f6df3d</ql:key>
+   <ql:flags>7</ql:flags>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-06-15T17:21:39.692Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T04:41:25.941Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T05:07:07.297Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T05:14:10.629Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-30T16:39:35.556Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T16:25:47.329Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T16:28:46.612Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+   </ql:history>
+   <gpxx:TrackExtension>
+    <gpxx:DisplayColor>DarkRed</gpxx:DisplayColor>
+   </gpxx:TrackExtension>
+  </extensions>
+  <trkseg>
+   <trkpt lon="13.75302502" lat="51.11355884">
+    <ele>216</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75294858" lat="51.11313507">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75286579" lat="51.11266851">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75282288" lat="51.11243248">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75280142" lat="51.11234665">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75275850" lat="51.11226082">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75273705" lat="51.11217499">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75269413" lat="51.11193895">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75271559" lat="51.11172438">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75273705" lat="51.11166000">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75277996" lat="51.11159563">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75308037" lat="51.11144543">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75314474" lat="51.11138105">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75316620" lat="51.11131668">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75314438" lat="51.11117320">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75284397" lat="51.11076123">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75247955" lat="51.11024380">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75237190" lat="51.11014158">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75209332" lat="51.10987902">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75194311" lat="51.10977173">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75168562" lat="51.10975027">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75083232" lat="51.10983428">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75037634" lat="51.10985961">
+    <ele>209</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75037670" lat="51.10985756">
+    <ele>209</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75046217" lat="51.10964517">
+    <ele>209</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74943256" lat="51.10925674">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74891758" lat="51.10904217">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74854171" lat="51.10893771">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74737263" lat="51.10861301">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74687910" lat="51.10850573">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74655724" lat="51.10850573">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74649286" lat="51.10869884">
+    <ele>208</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74640399" lat="51.10899174">
+    <ele>208</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74625683" lat="51.10955715">
+    <ele>207</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74647141" lat="51.10957861">
+    <ele>208</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74675035" lat="51.10962152">
+    <ele>208</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74715805" lat="51.10964298">
+    <ele>209</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74756575" lat="51.10966444">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74824130" lat="51.10976674">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74788761" lat="51.11015797">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74683619" lat="51.11097336">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74666452" lat="51.11116648">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74657869" lat="51.11131668">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74657869" lat="51.11142397">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74666452" lat="51.11172438">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74666452" lat="51.11196041">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74662161" lat="51.11208916">
+    <ele>209</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74640703" lat="51.11243248">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74629974" lat="51.11271143">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74632084" lat="51.11298734">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74645093" lat="51.11314013">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74647141" lat="51.11326933">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74679327" lat="51.11365557">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74722242" lat="51.11451387">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74730825" lat="51.11468554">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74737263" lat="51.11481428">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74737219" lat="51.11481643">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74683619" lat="51.11511469">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74625683" lat="51.11543655">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74619246" lat="51.11545801">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74565601" lat="51.11573696">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74533647" lat="51.11588526">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74533371" lat="51.11588593">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74565601" lat="51.11573696">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74619246" lat="51.11545801">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74625683" lat="51.11543655">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74683619" lat="51.11511469">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74737263" lat="51.11481428">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74782324" lat="51.11455679">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74812365" lat="51.11434221">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74887466" lat="51.11369848">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74923944" lat="51.11335516">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74975443" lat="51.11286163">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.74990463" lat="51.11277580">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75006520" lat="51.11271635">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75018358" lat="51.11266851">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75041255" lat="51.11258466">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75132084" lat="51.11245394">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75151396" lat="51.11243248">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75200748" lat="51.11241102">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75230789" lat="51.11238956">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75231424" lat="51.11238966">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75232899" lat="51.11247492">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75232935" lat="51.11247540">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75280508" lat="51.11243355">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+  </trkseg>
+ </trk>
+ <trk>
+  <name>Track</name>
+  <extensions>
+   <ql:key>bc036ad6d9394d44e6c3d1d6518aab2e</ql:key>
+   <ql:flags>7</ql:flags>
+   <ql:history>
+    <ql:event>
+     <ql:icon>://icons/48x48/Start.png</ql:icon>
+     <ql:time>2020-06-15T17:16:57.185Z</ql:time>
+     <ql:comment>Erstversion.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T04:41:25.946Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T05:07:07.300Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-06-17T05:10:04.659Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-17T05:14:10.634Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/ActFoot.png</ql:icon>
+     <ql:time>2020-06-30T16:39:35.560Z</ql:time>
+     <ql:comment>Die Aktivität wurde für den gesamten Track auf 'Fußgänger' geändert.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T04:48:45.972Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T04:52:03.166Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T04:57:13.607Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T05:00:33.738Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T05:03:00.796Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T05:09:58.031Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T15:57:00.387Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+    <ql:event>
+     <ql:icon>://icons/48x48/LineMove.png</ql:icon>
+     <ql:time>2020-07-02T15:58:19.325Z</ql:time>
+     <ql:comment>Wegpunkte geändert, alle vorherigen Daten sind verloren.</ql:comment>
+    </ql:event>
+   </ql:history>
+   <gpxx:TrackExtension>
+    <gpxx:DisplayColor>DarkBlue</gpxx:DisplayColor>
+   </gpxx:TrackExtension>
+  </extensions>
+  <trkseg>
+   <trkpt lon="13.76349361" lat="51.11038624">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76353025" lat="51.11041546">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76368010" lat="51.11058566">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76383066" lat="51.11073732">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76382896" lat="51.11073762">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76400232" lat="51.11067295">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76385444" lat="51.11054514">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76376629" lat="51.11037254">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76378775" lat="51.11024380">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76389503" lat="51.11013651">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76368144" lat="51.10992295">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76389503" lat="51.11013651">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76378775" lat="51.11024380">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76376629" lat="51.11037254">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76384505" lat="51.11052825">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76400232" lat="51.11067295">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76383432" lat="51.11073424">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76368948" lat="51.11059579">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76353025" lat="51.11041546">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76317316" lat="51.11010952">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76310110" lat="51.11005068">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76282215" lat="51.10983610">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76265147" lat="51.10958020">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76265049" lat="51.10957861">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76260757" lat="51.10953569">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76256466" lat="51.10951424">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76239300" lat="51.10942841">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76217842" lat="51.10934258">
+    <ele>191</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76174927" lat="51.10925674">
+    <ele>189</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76166844" lat="51.10923744">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76125806" lat="51.10910574">
+    <ele>186</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76125574" lat="51.10910654">
+    <ele>186</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76105019" lat="51.10931426">
+    <ele>187</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76125574" lat="51.10910654">
+    <ele>186</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76151153" lat="51.10889383">
+    <ele>187</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76144886" lat="51.10874176">
+    <ele>186</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76142838" lat="51.10839657">
+    <ele>184</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76142740" lat="51.10809803">
+    <ele>183</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76151323" lat="51.10762596">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76179218" lat="51.10700369">
+    <ele>180</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76183510" lat="51.10691786">
+    <ele>180</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76185656" lat="51.10653162">
+    <ele>180</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76185656" lat="51.10616684">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76181364" lat="51.10601664">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76174927" lat="51.10588789">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76158261" lat="51.10575991">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76157761" lat="51.10575914">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76084805" lat="51.10638142">
+    <ele>179</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76035452" lat="51.10672474">
+    <ele>180</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76024723" lat="51.10678911">
+    <ele>180</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75962496" lat="51.10706806">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75928164" lat="51.10723972">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75927725" lat="51.10724162">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75935369" lat="51.10748055">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75936747" lat="51.10751867">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75913143" lat="51.10762596">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75898123" lat="51.10762596">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75872374" lat="51.10766888">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75861474" lat="51.10775409">
+    <ele>181</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75786543" lat="51.10794783">
+    <ele>182</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75769609" lat="51.10790606">
+    <ele>183</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75769377" lat="51.10790491">
+    <ele>183</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75758880" lat="51.10771272">
+    <ele>182</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75758648" lat="51.10771179">
+    <ele>182</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75730985" lat="51.10773130">
+    <ele>183</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75720024" lat="51.10779762">
+    <ele>184</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75619173" lat="51.10801220">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75611090" lat="51.10805127">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75610590" lat="51.10805511">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75604153" lat="51.10816240">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75578403" lat="51.10837698">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75578367" lat="51.10839826">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75574112" lat="51.10867739">
+    <ele>191</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75578367" lat="51.10893097">
+    <ele>191</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75533342" lat="51.10897779">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75467056" lat="51.10919269">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75413179" lat="51.10938549">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75396111" lat="51.10946875">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75385919" lat="51.10957597">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75393867" lat="51.10960007">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75402451" lat="51.10966444">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75411034" lat="51.10977173">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75421762" lat="51.11028671">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75432491" lat="51.11041546">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75451096" lat="51.11056117">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75451803" lat="51.11056566">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75483990" lat="51.11041546">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75541925" lat="51.11009359">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75542023" lat="51.11009347">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75548363" lat="51.11009359">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75580549" lat="51.10998631">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75593424" lat="51.10996485">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75610151" lat="51.10996600">
+    <ele>195</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75621283" lat="51.10987820">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75621319" lat="51.10987902">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75634193" lat="51.10994339">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75653505" lat="51.11000776">
+    <ele>195</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75679255" lat="51.11002922">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75705004" lat="51.10998631">
+    <ele>193</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75769377" lat="51.10981464">
+    <ele>192</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75792980" lat="51.10981464">
+    <ele>193</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75807428" lat="51.10983514">
+    <ele>193</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75865936" lat="51.10953569">
+    <ele>193</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75895977" lat="51.10940695">
+    <ele>192</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75938892" lat="51.10929966">
+    <ele>191</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75964642" lat="51.10925674">
+    <ele>190</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75981808" lat="51.10925674">
+    <ele>189</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76031160" lat="51.10938549">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76078197" lat="51.10959791">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76078367" lat="51.10960007">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76070150" lat="51.10966630">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76059055" lat="51.10968590">
+    <ele>188</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76048326" lat="51.10972881">
+    <ele>189</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76037598" lat="51.10979319">
+    <ele>189</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76016140" lat="51.10994339">
+    <ele>191</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75983953" lat="51.11026525">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75981808" lat="51.11030817">
+    <ele>194</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75951731" lat="51.11073507">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75951767" lat="51.11073732">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76009703" lat="51.11082315">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76046181" lat="51.11084461">
+    <ele>195</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76046413" lat="51.11084482">
+    <ele>195</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76052618" lat="51.11101627">
+    <ele>196</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76071930" lat="51.11129522">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76080513" lat="51.11140251">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76107701" lat="51.11173882">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76108408" lat="51.11174583">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76121283" lat="51.11213207">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76123428" lat="51.11217499">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76127818" lat="51.11223773">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76144886" lat="51.11219645">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76144984" lat="51.11219636">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76153567" lat="51.11228163">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76232960" lat="51.11196168">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76241446" lat="51.11202478">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76262903" lat="51.11226082">
+    <ele>197</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76295188" lat="51.11271215">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76280069" lat="51.11275434">
+    <ele>198</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76275778" lat="51.11277580">
+    <ele>199</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76250261" lat="51.11288268">
+    <ele>199</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76295188" lat="51.11337651">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76282447" lat="51.11346177">
+    <ele>200</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76310208" lat="51.11363566">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76310110" lat="51.11363411">
+    <ele>201</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76260311" lat="51.11394698">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76239532" lat="51.11406365">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76230717" lat="51.11391306">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76222097" lat="51.11378677">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76222134" lat="51.11378431">
+    <ele>203</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76198762" lat="51.11346430">
+    <ele>202</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76162052" lat="51.11359119">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76153469" lat="51.11356974">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76147130" lat="51.11359177">
+    <ele>204</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76125136" lat="51.11367956">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76125574" lat="51.11367702">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76117223" lat="51.11359261">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76084805" lat="51.11369848">
+    <ele>205</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76052618" lat="51.11380577">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76046413" lat="51.11384754">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.76005411" lat="51.11341953">
+    <ele>207</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75992537" lat="51.11322641">
+    <ele>207</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75971079" lat="51.11275434">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75971043" lat="51.11271046">
+    <ele>206</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75949621" lat="51.11271143">
+    <ele>207</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75803709" lat="51.11296892">
+    <ele>210</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75719317" lat="51.11308358">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75715965" lat="51.11298903">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75715733" lat="51.11299038">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75582695" lat="51.11316204">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75417971" lat="51.11331319">
+    <ele>215</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75406742" lat="51.11318350">
+    <ele>214</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75398159" lat="51.11277580">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75398123" lat="51.11277462">
+    <ele>212</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75348806" lat="51.11266851">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75327349" lat="51.11262560">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75305891" lat="51.11256123">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>8</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75305855" lat="51.11256020">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75286543" lat="51.11266910">
+    <ele>211</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75294858" lat="51.11313423">
+    <ele>213</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+   <trkpt lon="13.75303649" lat="51.11361795">
+    <ele>216</ele>
+    <extensions>
+     <ql:flags>0</ql:flags>
+    </extensions>
+   </trkpt>
+  </trkseg>
+ </trk>
+ <extensions>
+  <ql:key>8837d2b348bc774f609961bb611fce71</ql:key>
+  <ql:sortingRoadbook>0</ql:sortingRoadbook>
+  <ql:sortingFolder>0</ql:sortingFolder>
+  <ql:correlation>1</ql:correlation>
+ </extensions>
+</gpx>

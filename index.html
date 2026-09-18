@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interaktive Übersicht der DVB-Wandertipps in Dresden und Umgebung.">
+  <title>DVB-Wandertipps · Dresden & Umland</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>
+    :root { --ink:#17231d; --muted:#607066; --paper:#fffdf8; --surface:#ffffff; --accent:#006b50; --accent-soft:#dff5eb; --line:#dce5dd; }
+    * { box-sizing:border-box; }
+    html, body { height:100%; margin:0; }
+    body { font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:#eaf0eb; }
+    #map { position:fixed; inset:0; background:#dce9de; }
+    .leaflet-container { font:inherit; }
+    #panel { position:fixed; z-index:1000; top:20px; left:20px; width:min(390px, calc(100vw - 40px)); max-height:calc(100dvh - 40px); display:flex; flex-direction:column; overflow:hidden; border:1px solid rgba(255,255,255,.8); border-radius:18px; background:rgba(255,253,248,.96); box-shadow:0 20px 50px rgba(20,42,30,.22); backdrop-filter:blur(10px); }
+    header { padding:22px 22px 16px; border-bottom:1px solid var(--line); }
+    .eyebrow { margin:0 0 6px; color:var(--accent); font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { margin:0; font-size:23px; line-height:1.12; letter-spacing:-.035em; }
+    .intro { margin:9px 0 0; color:var(--muted); font-size:13px; line-height:1.45; }
+    .controls { padding:14px 16px 10px; border-bottom:1px solid var(--line); }
+    .search { position:relative; }
+    .search input { width:100%; height:39px; padding:0 12px; border:1px solid #b8c6bb; border-radius:9px; outline:0; background:#fff; color:var(--ink); font:inherit; font-size:13px; }
+    .search input:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(0,107,80,.15); }
+    .buttons { display:flex; gap:7px; margin-top:9px; }
+    button { appearance:none; border:1px solid #b8c6bb; border-radius:8px; padding:7px 10px; background:#fff; color:#264032; cursor:pointer; font:600 12px/1 inherit; transition:background .16s, border-color .16s, transform .16s; }
+    button:hover { border-color:var(--accent); background:var(--accent-soft); }
+    button:active { transform:translateY(1px); }
+    #tour-count { margin:12px 16px 7px; color:var(--muted); font-size:12px; }
+    #list { min-height:0; overflow:auto; padding:0 10px 14px; scrollbar-color:#b9c9bd transparent; }
+    .tour { width:100%; display:grid; grid-template-columns:12px 1fr 20px; gap:9px; align-items:start; padding:10px 8px; border:0; border-radius:10px; background:transparent; text-align:left; color:var(--ink); font-weight:400; }
+    .tour[hidden] { display:none; }
+    .tour:hover, .tour:focus-visible, .tour.is-active { background:var(--accent-soft); border-color:transparent; outline:0; }
+    .tour:focus-visible { box-shadow:0 0 0 2px var(--accent); }
+    .swatch { width:11px; height:11px; margin-top:3px; border:2px solid rgba(255,255,255,.9); border-radius:50%; box-shadow:0 0 0 1px rgba(0,0,0,.12); }
+    .tour-name { font-size:13px; line-height:1.3; }
+    .tour-number { margin-right:5px; color:var(--muted); font-size:11px; font-weight:800; letter-spacing:.04em; }
+    .tour-arrow { color:var(--accent); font-size:18px; line-height:.85; opacity:0; transform:translateX(-4px); transition:opacity .16s,transform .16s; }
+    .tour:hover .tour-arrow, .tour:focus-visible .tour-arrow, .tour.is-active .tour-arrow { opacity:1; transform:translateX(0); }
+    footer { padding:10px 16px 13px; border-top:1px solid var(--line); color:var(--muted); font-size:11px; line-height:1.35; }
+    footer a { color:var(--accent); font-weight:700; }
+    .route-tooltip { border:0; border-radius:7px; box-shadow:0 4px 15px rgba(0,0,0,.18); color:var(--ink); font-size:12px; font-weight:700; }
+    .route-tooltip:before { display:none; }
+    .leaflet-popup-content-wrapper { border-radius:12px; box-shadow:0 8px 26px rgba(0,0,0,.23); }
+    .leaflet-popup-content { margin:14px 16px; font:13px/1.4 inherit; }
+    .popup-num { color:var(--accent); font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    .popup-name { margin:3px 0 11px; font-size:15px; line-height:1.25; font-weight:800; }
+    .travel { margin:7px 0; color:#405349; font-size:12px; line-height:1.35; }
+    .travel strong { color:var(--ink); }
+    .popup-link { color:var(--accent); font-size:12px; line-height:1.35; }
+    @media (max-width:640px) { #panel { top:auto; bottom:12px; left:12px; width:calc(100vw - 24px); max-height:53dvh; border-radius:15px; } header { padding:15px 17px 12px; } h1 { font-size:19px; } .intro { font-size:12px; } .controls { padding:10px 12px 7px; } #tour-count { margin:9px 12px 5px; } #list { padding:0 6px 8px; } footer { display:none; } }
+  </style>
+</head>
+<body>
+  <main id="map" aria-label="Karte der DVB-Wandertipps"></main>
+  <aside id="panel" aria-label="Wandertipps">
+    <header>
+      <p class="eyebrow">Dresden & Umland</p>
+      <h1>DVB-Wandertipps</h1>
+      <p class="intro">27 Streifzüge auf einen Blick. Wähle eine Tour oder fahre mit der Maus über eine Linie.</p>
+    </header>
+    <div class="controls">
+      <label class="search"><input id="search" type="search" placeholder="Tour suchen …" autocomplete="off" aria-label="Wandertipp suchen"></label>
+      <div class="buttons">
+        <button id="show-all" type="button">Alle anzeigen</button>
+        <button id="hide-all" type="button">Karte leeren</button>
+      </div>
+    </div>
+    <p id="tour-count" aria-live="polite"></p>
+    <section id="list" aria-label="Liste der Wandertipps"></section>
+    <footer>Visualisiert werden die offiziellen DVB-GPX-Tracks. Aktuelle Hinweise und Details bei den <a href="https://www.dvb.de/de-de/entdecken/wandertipps" target="_blank" rel="noopener">DVB-Wandertipps</a>.</footer>
+  </aside>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const palette=['#cf3f33','#0877a8','#34815b','#8050a2','#d77213','#9c572c','#b24e82','#536b74','#168c7b','#bd5a42','#5074ad','#a04d8b','#6d9232','#b0870d','#9a7157','#65747a'];
+    const map=L.map('map',{zoomControl:false,preferCanvas:true}).setView([51.06,13.75],11);
+    L.control.zoom({position:'bottomright'}).addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap-Mitwirkende'}).addTo(map);
+    const layers={}, rows={}, allBounds=L.latLngBounds([]); let activeId=null, routes=[];
+    const list=document.querySelector('#list'), count=document.querySelector('#tour-count');
+    const escapeHtml=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+    const popup=route => `<div class="popup-num">Streifzug ${String(route.id).padStart(2,'0')}</div><div class="popup-name">${escapeHtml(route.name)}</div><div class="travel"><strong>Hin:</strong> ${escapeHtml(route.start)}</div><div class="travel"><strong>Zurück:</strong> ${escapeHtml(route.return)}</div><a class="popup-link" target="_blank" rel="noopener" href="${route.page}">Tour bei DVB ansehen ↗</a><br><a class="popup-link" href="${route.gpx}" download>GPX herunterladen ↓</a>`;
+    const parseGpx=async route => {
+      const response=await fetch(route.gpx);
+      if(!response.ok) throw new Error(`GPX ${route.gpx} konnte nicht geladen werden`);
+      const xml=new DOMParser().parseFromString(await response.text(),'application/xml');
+      if(xml.querySelector('parsererror')) throw new Error(`GPX ${route.gpx} ist ungültig`);
+      const segments=[...xml.querySelectorAll('trkseg')].map(segment=>[...segment.querySelectorAll('trkpt')]).filter(points=>points.length);
+      const source=segments.length ? segments : [[...xml.querySelectorAll('rtept')]];
+      const points=source.map(segment=>segment.map(point=>[Number(point.getAttribute('lat')),Number(point.getAttribute('lon'))]).filter(([lat,lon])=>Number.isFinite(lat)&&Number.isFinite(lon))).filter(segment=>segment.length);
+      if(!points.length) throw new Error(`GPX ${route.gpx} enthält keine Punkte`);
+      return L.featureGroup(points.map(segment=>L.polyline(segment,{color:route.color,weight:4,opacity:.72,lineCap:'round',lineJoin:'round'})));
+    };
+    function setActive(id, zoom=false) {
+      activeId=id;
+      routes.forEach(route=>{const selected=route.id===id,line=layers[route.id]; line.setStyle({weight:selected?8:4,opacity:selected?1:.72}); rows[route.id].classList.toggle('is-active',selected);});
+      const route=routes.find(route=>route.id===id), line=layers[id];
+      if(!map.hasLayer(line)) line.addTo(map);
+      if(zoom) map.fitBounds(line.getBounds(),{padding:[42,42],maxZoom:14});
+      line.openPopup();
+    }
+    function renderRoute(route,index,line) {
+      route.color=palette[index%palette.length]; layers[route.id]=line; allBounds.extend(line.getBounds());
+      line.setStyle({color:route.color}); line.bindTooltip(`${String(route.id).padStart(2,'0')} · ${route.name}`,{sticky:true,className:'route-tooltip',direction:'top',offset:[0,-8]});
+      line.bindPopup(popup(route)); line.on({mouseover:()=>{if(activeId!==route.id)line.setStyle({weight:7,opacity:1});},mouseout:()=>{if(activeId!==route.id)line.setStyle({weight:4,opacity:.72});},click:()=>setActive(route.id)});
+      line.addTo(map);
+      const row=document.createElement('button'); row.type='button'; row.className='tour'; row.setAttribute('aria-label',`Streifzug ${route.id}: ${route.name}`);
+      row.innerHTML=`<span class="swatch" style="background:${route.color}"></span><span class="tour-name"><span class="tour-number">${String(route.id).padStart(2,'0')}</span>${escapeHtml(route.name)}</span><span class="tour-arrow" aria-hidden="true">›</span>`;
+      row.addEventListener('click',()=>setActive(route.id,true)); row.addEventListener('mouseenter',()=>{if(activeId!==route.id)line.setStyle({weight:7,opacity:1});}); row.addEventListener('mouseleave',()=>{if(activeId!==route.id)line.setStyle({weight:4,opacity:.72});});
+      list.append(row); rows[route.id]=row;
+    }
+    function filterTours() {
+      const term=document.querySelector('#search').value.trim().toLocaleLowerCase('de'); let shown=0;
+      routes.forEach(route=>{const visible=!term||route.name.toLocaleLowerCase('de').includes(term)||String(route.id).includes(term); rows[route.id].hidden=!visible; if(visible)shown++;});
+      count.textContent=term?`${shown} passende ${shown===1?'Tour':'Touren'}`:`${routes.length} GPX-Tracks auf der Karte`;
+    }
+    document.querySelector('#search').addEventListener('input',filterTours);
+    document.querySelector('#show-all').addEventListener('click',()=>{routes.forEach(route=>layers[route.id].addTo(map)); activeId=null; routes.forEach(route=>{layers[route.id].setStyle({weight:4,opacity:.72});rows[route.id].classList.remove('is-active');});map.fitBounds(allBounds,{padding:[30,30]});});
+    document.querySelector('#hide-all').addEventListener('click',()=>{routes.forEach(route=>map.removeLayer(layers[route.id]));activeId=null;routes.forEach(route=>rows[route.id].classList.remove('is-active'));});
+    async function loadRoutes() {
+      count.textContent='GPX-Tracks werden geladen …';
+      try {
+        const response=await fetch('data/routes.json');
+        if(!response.ok) throw new Error('Tourdaten konnten nicht geladen werden');
+        const source=await response.json();
+        routes=source.map((route,index)=>({...route,name:route.name.replace(/\s+-\s*DVB$/,''),color:palette[index%palette.length]}));
+        const parsed=await Promise.all(routes.map(parseGpx));
+        parsed.forEach((line,index)=>renderRoute(routes[index],index,line));
+        map.fitBounds(allBounds,{padding:[30,30]}); filterTours();
+      } catch(error) {
+        console.error(error); count.textContent='Die GPX-Tracks konnten nicht geladen werden.';
+      }
+    }
+    loadRoutes();
+  </script>
+</body>
+</html>
